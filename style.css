@@ -1,0 +1,106 @@
+/* Font */
+@font-face {
+    font-family: FiraSans-Regular;
+    src: url("fonts/FiraSans-Regular.ttf");
+}
+* {
+    font-family: FiraSans-Regular;
+}
+
+/* Site layout and general appearance */
+html, body {
+    margin: 0;
+}
+body {
+    min-height: 100vh;
+    background-color: hsl(0, 0%, 97.5%);
+    display: flex;
+    flex-direction: column;
+}
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+main {
+    height: max-content;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+h1 {
+    color: hsl(0, 0%, 20%);
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+}
+hr {
+    border: 0.1rem solid hsl(0, 0%, 75%);
+}
+
+/* Information box */
+.information-box {
+    width: 20rem;
+    background-color: hsl(0, 0%, 95%);
+    border-radius: 1rem;
+    box-shadow: 0rem 0.5rem 1rem hsl(0, 0%, 70%);
+    padding: 1rem;
+}
+.information-title {
+    color: hsl(0, 0%, 35%);
+    font-size: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 0.5rem;
+}
+
+/* Navigation bar */
+nav {
+    background-color: hsl(0, 0%, 95%);
+    display: flex;
+}
+.nav-item {
+    color: hsl(0, 0%, 20%);
+    user-select: none;
+    padding: 1rem;
+    cursor: pointer;
+    transition: background-color 0.1s ease-in-out;
+}
+.nav-item:hover {
+    background-color: hsl(0, 0%, 92.5%);
+}
+.nav-item:active {
+    background-color: hsl(0, 0%, 90%);
+}
+
+/* Download */
+.file-download {
+    background-color: hsl(0, 0%, 95%);
+    border-radius: 1rem;
+    box-shadow: 0rem 0.5rem 1rem hsl(0, 0%, 70%);
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+.file-title {
+    font-size: 1.25rem;
+    color: hsl(0, 0%, 20%);
+}
+.download {
+    color: hsl(0, 100%, 97.5%);
+    background-color: hsl(200, 100%, 50%);
+    padding: 0.5rem;
+    border-radius: 0.75rem;
+    transition: background-color 0.1s ease-in-out;
+    cursor: pointer;
+    user-select: none;
+    text-decoration: none;
+}
+.download:hover {
+    background-color: hsl(200, 100%, 47.5%);
+}
+.download:active {
+    background-color: hsl(200, 100%, 45%);
+}
