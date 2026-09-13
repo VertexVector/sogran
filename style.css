@@ -62,6 +62,7 @@ nav {
     display: flex;
 }
 .nav-item {
+    font-size: 0.8rem;
     color: hsl(0, 0%, 20%);
     user-select: none;
     padding: 1rem;
