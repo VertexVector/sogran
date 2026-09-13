@@ -67,7 +67,7 @@ nav {
     padding: 1rem;
     cursor: pointer;
     transition: background-color 0.1s ease-in-out;
-    -webkit-tap-highlight-color: none;
+    -webkit-tap-highlight-color: transparent;
 }
 .nav-item:hover {
     background-color: hsl(0, 0%, 92.5%);
