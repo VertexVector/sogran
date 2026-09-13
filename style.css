@@ -67,6 +67,7 @@ nav {
     padding: 1rem;
     cursor: pointer;
     transition: background-color 0.1s ease-in-out;
+    -webkit-tap-highlight-color: none;
 }
 .nav-item:hover {
     background-color: hsl(0, 0%, 92.5%);
@@ -98,7 +99,6 @@ nav {
     cursor: pointer;
     user-select: none;
     text-decoration: none;
-    -webkit-tap-highlight-color: none;
 }
 .download:hover {
     background-color: hsl(200, 100%, 47.5%);
